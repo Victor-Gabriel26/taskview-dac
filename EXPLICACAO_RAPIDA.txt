@@ -1,0 +1,11 @@
+TASKVIEW — RESUMO PARA O PROFESSOR
+
+TECNOLOGIA: Vue.js 3 com Vite.
+API: https://jsonplaceholder.typicode.com/todos (JSON falso para fins educacionais).
+REQUISIÇÃO: GET assíncrono via fetch; verifica código HTTP e converte retorno em JSON.
+RENDERIZAÇÃO: v-for cria um cartão TarefaCard para cada elemento da página.
+ESTADO: ref() armazena dados e filtros; computed() recalcula totais e a lista.
+EXIBIÇÃO: busca por texto/ID, filtro por situação e paginação de 12 tarefas.
+TRATAMENTO: carregando, erro com tentar novamente, lista sem resultados.
+
+AO DEFENDER: explique primeiro o problema que o painel resolve, em seguida a escolha do Vue, mostre a API no navegador, faça buscas e filtros, e por fim apresente App.vue e services/todos.js.
